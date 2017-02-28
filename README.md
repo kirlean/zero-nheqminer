@@ -27,7 +27,7 @@ Working solvers CPU_TROMP, CPU_XENONCAT, CUDA_TROMP, OCL_XMP, OCL_SILENTARMY
 
  - Open terminal and run the following commands:
    - `sudo apt-get install cmake build-essential libboost-all-dev`
-   - `git clone -b Linux https://github.com/nicehash/nheqminer.git`
+   - `git clone -b Linux https://github.com/ocminer/zero-nheqminer.git`
    - `cd nheqminer/cpu_xenoncat/Linux/asm/`
    - `sh assemble.sh`
    - `cd ../../../Linux_cmake/nheqminer_cpu`
@@ -47,7 +47,7 @@ Working solvers CPU_TROMP, CPU_XENONCAT, CUDA_TROMP, OCL_XMP, OCL_SILENTARMY
    - `sudo apt-get install cuda`
    - `sudo apt-get install cuda-toolkit-8-0`
    - `sudo apt-get install cmake build-essential libboost-all-dev`
-   - `git clone -b Linux https://github.com/nicehash/nheqminer.git`
+   - `git clone -b Linux https://github.com/ocminer/zero-nheqminer.git`
    - `cd nheqminer/Linux_cmake/nheqminer_cuda_tromp && cmake . && make -j $(nproc)`
    - or specify your compute version for example 50 like so `cd nheqminer/Linux_cmake/nheqminer_cuda_tromp && cmake COMPUTE=50 . && make`
 
